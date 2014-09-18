@@ -18,7 +18,6 @@ public class Apple {
 		g.setColor(Color.RED);
 		g.fillOval(x * width, y * height, width, height);
 		
-		
 	}
 	public int getX() {
 		return x;
@@ -32,5 +31,4 @@ public class Apple {
 	public void setY(int y) {
 		this.y = y;
 	}
-
 }

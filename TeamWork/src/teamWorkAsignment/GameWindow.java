@@ -1,9 +1,15 @@
 package teamWorkAsignment;
 
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.GridLayout;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
 
+@SuppressWarnings("serial")
 public class GameWindow extends JFrame{
 
 	public GameWindow() {

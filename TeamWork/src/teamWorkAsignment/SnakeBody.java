@@ -31,8 +31,8 @@ public class SnakeBody {
 	public void tick(){
 		
 	} 
-	public void draw(Graphics g){
-		g.setColor(Color.GREEN);
+	public void draw(Graphics g, Color c){
+		g.setColor(c);
 		g.fillRect(x * width, y * height, width, height);
 		g.setColor(Color.BLACK);
 		g.drawRect(x * width, y * height, width, height);
